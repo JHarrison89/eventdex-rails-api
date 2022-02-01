@@ -241,7 +241,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
-  factory_bot_rails
+  factory_bot_rails (~> 6.2.0)
   faker
   importmap-rails
   jbuilder
