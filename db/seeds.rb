@@ -17,7 +17,7 @@ puts "Creating jobs..."
     Job.create(
         source: Faker::Internet.domain_name,
         employer: Faker::Company.name,
-        title: Faker::Job.title
+        title: Faker::Job.title,
         location: Faker::Address.city,
         description: Faker::Lorem.paragraphs,
         link: Faker::Internet.url,
